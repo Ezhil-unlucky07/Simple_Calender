@@ -1,0 +1,43 @@
+ .custom-calendar .react-calendar__tile {
+  border: 1px solid #bdb6b6;
+ padding: auto;
+ margin-bottom: 4px;
+
+}
+.custom-calendar {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+}
+ .calendar-container {
+  width: min-content;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 15px;
+}
+ h2{
+    border:  1px dashed ;
+    padding: 5px;
+    font-family: cursive;
+    border-radius: 4px;
+}
+.today-date{
+ border:  1px dashed gray;
+ padding: 5px;
+ font-family: monospace;
+ font-size: 20px;
+ font-weight: bold;
+ color: red;
+}
+.selected-date{
+ border:  1px dashed gray;
+ padding: 5px;
+  font-family: monospace;
+ font-size: 20px;
+ font-weight: bold;
+}
